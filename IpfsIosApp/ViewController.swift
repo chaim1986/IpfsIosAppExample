@@ -17,17 +17,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        disco = IpfsNodeDiscovery()
-        disco!.searchForNodeIP() { ip in
-            print("Handler received \(ip)")
-            self.goApi(ip)
-        }
+//        disco = IpfsNodeDiscovery()
+//        disco!.searchForNodeIP() { ip in
+//            print("Handler received \(ip)")
+//            self.goApi(ip)
+//        } 
+         self.goApi("!!changeme!!.ngrok.io") . //!!! change to the address show by your ngrok!!!!
     }
 
     func goApi(_ theIp: String) {
         do {
 
-            let api = try IpfsApi(host: theIp, port: 5001, ssl: true)
+            let api = try IpfsApi(host: theIp, port: 443, ssl: true)  // change the port to 443 (https default port)
             
             try api.id() {
                 (idData : JsonType) in
