@@ -39,6 +39,22 @@ For MAC OS :
  6. Run IPFS daemon on your local OS.
      
      $ ipfs  daemon 
-   
+    Initializing daemon...
+      Successfully raised file descriptor limit to 2048.
+      Swarm is limited to private network of peers with the swarm key
+      Swarm key fingerprint: a3b45509ddbaf1cdaa51107c37f109f7
+      Swarm listening on /ip4/127.0.0.1/tcp/4001
+      Swarm listening on /ip4/169.254.52.146/tcp/4001
+      Swarm listening on /ip4/192.168.2.161/tcp/4001
+      Swarm listening on /ip6/::1/tcp/4001
+      Swarm listening on /p2p-circuit/ipfs/QmXX8iiCPtxggFgRzc621zNCA9JLSPMtJUDs66F7jMieKU
+      Swarm announcing /ip4/127.0.0.1/tcp/4001
+      Swarm announcing /ip4/169.254.52.146/tcp/4001
+      Swarm announcing /ip4/192.168.1.111/tcp/46690
+      Swarm announcing /ip4/192.168.2.161/tcp/4001
+      Swarm announcing /ip6/::1/tcp/4001
+      API server listening on /ip4/127.0.0.1/tcp/5001
+      Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+      Daemon is ready
 
 
