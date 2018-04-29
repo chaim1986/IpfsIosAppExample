@@ -34,7 +34,7 @@ For MAC OS :
         Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
         Daemon is ready
       
-6. Run ngrok proxy 
+6. Run ngrok https proxy 
   
 		$ ngrok http  5001
     
