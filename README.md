@@ -36,6 +36,9 @@ For MAC OS :
       Connections                   ttl     opn     rt1     rt5     p50     p90                                      
                                     0       0       0.00    0.00    0.00    0.00
 
-
+ 6. Run IPFS daemon on your local OS.
+     
+     $ ipfs  daemon 
+   
 
 
